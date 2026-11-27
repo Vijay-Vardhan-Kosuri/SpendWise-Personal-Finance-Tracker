@@ -4,9 +4,9 @@ SpendWise is a responsive, full-stack personal finance management web site appli
 
 ## Architecture & Technology Stack
 Architecture consists of mainly 3 parts
-- **Frontend:** React.js (Vite), JavaScript, Tailwind CSS, React Router, Axios, Lucide React, Recharts
-- **Backend:** Python, Django, Django REST Framework, PyJWT (JWT access & refresh tokens with rotation)
-- **Database:** MySQL (via PyMySQL) with Django migrations (SQLite supported via `DB_ENGINE=sqlite` for isolated CI/test runs)
+- **Frontend requirement:** React.js (Vite), JavaScript, Tailwind CSS, React Router, Axios, Lucide React, Recharts
+- **Backend requirement:** Python, Django, Django REST Framework, PyJWT (JWT access & refresh tokens with rotation)
+- **Database requirement:** MySQL (via PyMySQL) with Django migrations (SQLite supported via `DB_ENGINE=sqlite` for isolated CI/test runs)
 
 ## Project Structure
 
@@ -105,3 +105,8 @@ This repository follows a **strict manual-only GitHub collaboration workflow** a
 - **Developer 3 (`developer-3`):** API integration, Recharts visualizations, testing, and documentation.
 
 See [docs/BRANCH_STRATEGY.md](docs/BRANCH_STRATEGY.md) and [docs/PULL_REQUEST_TRACKER.md](docs/PULL_REQUEST_TRACKER.md) for the complete collaboration workflow and PR schedule.
+
+
+
+### 1. Dashboard
+Provides an overview of financial activities, including income, expenses, and available balance.
