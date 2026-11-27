@@ -1,9 +1,9 @@
 # SpendWise — Personal Finance Management Platform
 
-SpendWise is a responsive, full-stack personal finance management web application designed to help individuals track income, categorize expenses, enforce monthly budgets, monitor savings goals, and analyze financial trends from a unified dashboard.
+SpendWise is a responsive, full-stack personal finance management web site application designed to help individuals track income, categorize expenses, enforce monthly budgets, monitor savings goals, and analyze financial trends from a unified dashboard.
 
 ## Architecture & Technology Stack
-
+Architecture consists of mainly 3 parts
 - **Frontend:** React.js (Vite), JavaScript, Tailwind CSS, React Router, Axios, Lucide React, Recharts
 - **Backend:** Python, Django, Django REST Framework, PyJWT (JWT access & refresh tokens with rotation)
 - **Database:** MySQL (via PyMySQL) with Django migrations (SQLite supported via `DB_ENGINE=sqlite` for isolated CI/test runs)
