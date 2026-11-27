@@ -1,0 +1,6 @@
+"""WSGI config for SpendWise."""
+import os
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "spendwise_config.settings")
+application = get_wsgi_application()
